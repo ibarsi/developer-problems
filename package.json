@@ -1,0 +1,22 @@
+{
+  "name": "developer-problems",
+  "version": "1.0.0",
+  "description": "A bot that Tweets out Developer Problem quotes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ibarsi/developer-problems.git"
+  },
+  "author": "Igor Barsi <ibarsi92@gmail.com> (https://github.com/ibarsi)",
+  "license": "MIT",
+  "homepage": "https://github.com/ibarsi/developer-problems/blob/master/README.md",
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "isomorphic-fetch": "2.2.1",
+    "twit": "2.2.5",
+    "winston": "2.3.1"
+  }
+}
